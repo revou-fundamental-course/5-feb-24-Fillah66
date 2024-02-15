@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Konversi Suhu</title>
+</head>
+<body>
+    <h2>Kalkulator Konversi Suhu</h2>
+    <p>Masukan suhu derajat Celsius (°C) ke kotak dibawah, lalu klik tombol Konversi <br>
+        untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F).</p>
+    <main>
+    <div id="function">
+        <fieldset>
+            <legend><label for="in-section" class="label">Celsius (°C):</label></legend>
+            <input type="number" class="in" id="in" placeholder="contoh : 50 atau 5.15" value="">  
+        </fieldset>
+        </section>
+    </div>
+    <div id="konversi-result">
+        <fieldset>
+            <legend><label for="out-section" class="label">Hasil Konversi</label></legend>
+            <p id="out"></p>
+        </fieldset>
+    </div>
+    <div id="cara-konversi">
+        <fieldset>
+            <legend>Cara Kalkulasi</legend>
+            <p id="cara1" value=""></p>
+            <p id="cara2" value=""></p>
+            <p id="cara3" value=""></p>
+            <p id="cara4" value=""></p>
+            <p id="cara5" value=""></p>
+            <p id="cara6" value=""></p>
+        </fieldset>
+    </div>
+    <section class="resultButton">
+        <button class="result" id="celcius-to-fahrenheit" onclick="celciusToFahrenheit ()">Konversi</button>
+        <button class="result" id="fahrenheit-to-celcius" onclick="fahrenheitToCelcius ()">Reverse</button>
+        <button class="result" id="reset-button" onclick="reset ()">Reset</button>
+    </main>
+    <script src="JS/script.js"></script>
+</body>
+</html>

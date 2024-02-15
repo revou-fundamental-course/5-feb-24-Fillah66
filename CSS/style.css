@@ -1,0 +1,160 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(226, 226, 226);
+}
+
+h2 {
+    display: inline;
+    vertical-align: top;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+#function {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#konversi-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cara-konversi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: #232323 solid 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    background-color: rgb(189, 187, 187);
+    width: 500px;
+    height: 90px;
+}
+
+legend {
+    background-color: #fff;
+    border: solid 2px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-boreder-radius: 4px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset>p {
+    padding: 5px;
+}
+
+#in-section {
+    display: block;
+}
+
+#out-section {
+    display: block;
+}
+
+.in {
+    display: inline-block;
+    border: #303030 solid 2px;
+    outline: none;
+    border-radius: 3px;
+    -webkit-border-radius 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    margin: 20px;
+    margin-left: 60px;
+    border: solid 2px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.resultButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#celcius-to-fahrenheit:hover {
+    background-color: rgb(12, 16, 223);
+    cursor: pointer;
+}
+
+#celcius-to-fahrenheit:active {
+    background-color: rgb(12, 16, 223);
+    transform: translateY(3px);
+    -webkit-transform: translateY(3px);
+    -moz-transform: translateY(3px);
+    -ms-transform: translateY(3px);
+    -o-transform: translateY(3px);
+}
+
+#fahrenheit-to-celcius:hover {
+    background-color: rgb(25, 250, 0);
+    cursor: pointer;
+}
+
+#fahrenheit-to-celcius:active {
+    background-color: rgb(25, 250, 0);
+    transform: translateY(3px);
+    -webkit-transform: translateY(3px);
+    -moz-transform: translateY(3px);
+    -ms-transform: translateY(3px);
+    -o-transform: translateY(3px);
+}
+
+#reset-button:hover {
+    background-color: rgb(255, 37, 037);
+}
+
+#reset-button:active {
+    background-color: rgb(255, 37, 037);
+    transform: translateY(3px);
+    -webkit-transform: translateY(3px);
+    -moz-transform: translateY(3px);
+    -ms-transform: translateY(3px);
+    -o-transform: translateY(3px);
+}
+
+#cara {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#cara-konversi>fieldset {
+    height: 300px;
+}
